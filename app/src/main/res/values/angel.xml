@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="categoria">
+        <item>Caricatura</item>
+        <item>Pelicula</item>
+        <item>Videojuego</item>
+    </string-array>
+    <string-array name="caricaturaNombre">
+        <item>Tontin</item>
+        <item>Garfiled</item>
+    </string-array>
+    <string-array name="caricaturaAparece">
+        <item>Los Pitufos</item>
+        <item>Garfield y sus amigos</item>
+    </string-array>
+    <string-array name="caricaturaRol">
+        <item>Principal</item>
+        <item>Principal</item>
+    </string-array>
+    <string-array name="caricaturaImagen">
+        <item>@drawable/tontin</item>
+        <item>@drawable/garfield</item>
+    </string-array>
+    <string-array name="peliculaNombre">
+        <item>Groot</item>
+        <item>Spiderman</item>
+    </string-array>
+    <string-array name="peliculaAparece">
+        <item>Guardianes de la Galaxia 2</item>
+        <item>Spiderman Home Coming</item>
+    </string-array>
+    <string-array name="peliculaRol">
+        <item>Principal</item>
+        <item>Principal</item>
+    </string-array>
+    <string-array name="peliculaImagen">
+        <item>@drawable/groot</item>
+        <item>@drawable/spiderman</item>
+    </string-array>
+    <string-array name="videojuegoNombre">
+        <item>Sub-Zero</item>
+        <item>Yoshi</item>
+    </string-array>
+    <string-array name="videojuegoAparece">
+        <item>Mortal kombat</item>
+        <item>Super Mario Bros.</item>
+    </string-array>
+    <string-array name="videojuegoRol">
+        <item>Principal</item>
+        <item>Secundario</item>
+    </string-array>
+    <string-array name="videojuegoImagen">
+        <item>@drawable/subzero</item>
+        <item>@drawable/yoshi</item>
+    </string-array>
+</resources>
