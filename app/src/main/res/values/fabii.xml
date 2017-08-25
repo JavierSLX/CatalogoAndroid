@@ -1,2 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="opciones">
+        <item>Caricaturas</item>
+        <item>Peliculas</item>
+        <item>Videojuegos</item>
+    </string-array>
+
+    <string-array name="personajescaricaturas">
+        <item>Bombon</item>
+        <item>Homero</item>
+    </string-array>
+
+    <string-array name="personajespeliculas">
+        <item>Sullivan</item>
+        <item>Chuky</item>
+    </string-array>
+
+    <string-array name="personajesvideojuegos">
+        <item>Crash</item>
+        <item>Ryu</item>
+    </string-array>
+
+
+    <string-array name="caricaturas">
+        <item>Las chicas superpoderosas</item>
+        <item>Los Simpsons</item>
+    </string-array>
+
+    <string-array name="peliculas">
+        <item>Monsters Inc.</item>
+        <item>Chuky</item>
+    </string-array>
+
+    <string-array name="videojuegos">
+        <item>Crash</item>
+        <item>Street Fighter</item>
+    </string-array>
+
+    <string-array name="imagenes">
+        <item>@drawable/bombon</item>
+        <item>@drawable/homero</item>
+        <item>@drawable/sullivan</item>
+        <item>@drawable/chucky</item>
+        <item>@drawable/crash</item>
+        <item>@drawable/ryu</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
