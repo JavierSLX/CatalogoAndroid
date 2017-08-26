@@ -20,21 +20,22 @@ import java.util.List;
  */
 
 public class ListviewAngelAdapter extends ArrayAdapter<ListViewAngel> {
-    public ListviewAngelAdapter(Context context,List<ListViewAngel> objetos) {
-        super(context, R.layout.listview_angel_template,objetos);
+
+    public ListviewAngelAdapter(@NonNull Context context,List<ListViewAngel>objetos) {
+        super(context,R.layout.listview_angel_template,objetos);
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater=LayoutInflater.from(getContext());
-        View elemento=inflater.inflate(R.layout.listview_angel_template,null);
-        TextView nombre=(TextView)elemento.findViewById(R.id.nombre);
+        View item= inflater.inflate(R.layout.listview_angel_template,null);
+        final TextView nombre=(TextView) item.findViewById(R.id.nombre);
+        final TextView aparece=(TextView) item.findViewById(R.id.aparece);
+        final TextView rol=(TextView) item.findViewById(R.id.rol);
         nombre.setText(getItem(position).getNombre());
-        TextView aparece=(TextView)elemento.findViewById(R.id.aparece);
         aparece.setText(getItem(position).getAparece());
-        TextView rol=(TextView)elemento.findViewById(R.id.rol);
         rol.setText(getItem(position).getRol());
-        return elemento;
+        return item;
     }
 }
