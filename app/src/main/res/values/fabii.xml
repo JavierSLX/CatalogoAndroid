@@ -37,11 +37,17 @@
         <item>Street Fighter</item>
     </string-array>
 
-    <string-array name="imagenes">
+    <string-array name="imagenescaricaturas">
         <item>@drawable/bombon</item>
         <item>@drawable/homero</item>
+    </string-array>
+
+    <string-array name="imagenespeliculas">
         <item>@drawable/sullivan</item>
         <item>@drawable/chucky</item>
+    </string-array>
+
+    <string-array name="imagenesvideojuegos">
         <item>@drawable/crash</item>
         <item>@drawable/ryu</item>
     </string-array>
