@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+<string-array name="opciones">
+    <item>Peliculas</item>
+    <item>Caricaturas</item>
+    <item>Videojuegos</item>
+</string-array>
+    <string-array name="peliculas">
+        <item>Piratas del caribe</item>
+        <item>Crepusculo</item>
+
+    </string-array>
+    <string-array name="caricaturas">
+        <item>One piece</item>
+        <item>Tsubasa</item>
+    </string-array>
+    <string-array name="videojuegos">
+        <item>Kirvy</item>
+        <item>Banjo</item>
+    </string-array>
+    <string-array name="personagesdepeliculas">
+        <item>Jack</item>
+        <item>Bella</item>
+    </string-array>
+    <string-array name="personagesdecaricaturas">
+        <item>Grufi</item>
+        <item>Tsubasa</item>
+    </string-array>
+    <string-array name="personagesdeVideoJuegos">
+        <item>Kirby</item>
+        <item>Banjo</item>
+    </string-array>
+    <string-array name="imagenesdepeliculas">
+        <item>@drawable/jack</item>
+        <item>@drawable/bella</item>
+    </string-array>
+    <string-array name="imagenesswcaricaturas">
+        <item>@drawable/grufy</item>
+        <item>@drawable/tsubasa</item>
+    </string-array>
+    <string-array name="imagenesdevideojuegos">
+        <item>@drawable/kirby</item>
+        <item>@drawable/banjo</item>
+    </string-array>
+
+</resources>

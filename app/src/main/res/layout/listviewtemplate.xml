@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/uno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Personaje"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/dos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nombre"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/uno"
+        />
+</RelativeLayout>
